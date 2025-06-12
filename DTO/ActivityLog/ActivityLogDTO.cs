@@ -35,7 +35,7 @@ namespace api.DTO.ActivityLog
         [Display(Name = "Created At")]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         [Display(Name = "Creator")]
-        public UserDTO Creator { get; set; }
+        public UserDto Creator { get; set; }
     }
 }
 

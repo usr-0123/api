@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace api.Extensions;
+﻿namespace api.Extensions;
 
 public static class ServiceCollectionExtensions
 {

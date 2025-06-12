@@ -14,7 +14,7 @@ namespace api.Models.ActivityLog
         public string Url { get; set; }
         public string QueryString { get; set; }
         public string RequestBody { get; set; }
-        public bool IsArchived { get; set; } = false;
+        public bool IsArchived { get; set; }
         public Guid? CreatedBy { get; set; }
         public DateTime CreatedAt { get; set; }
         public virtual User.User Creator { get; set; }
